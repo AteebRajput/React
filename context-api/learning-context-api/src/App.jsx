@@ -1,14 +1,19 @@
 
 import Form from './assets/components/Form'
-import TodoList from './assets/components/TodoList'
+import TodoLists from './assets/components/TodoList'
+
+import TodoList from './context/Todo/TodoState'
 
 function App() {
   
 
   return (
     <>
+    <TodoList>
+
       <Form/>
-      <TodoList/>
+      <TodoLists/>
+    </TodoList>
     </>
   )
 }
